@@ -1,0 +1,16 @@
+Package: miRNAprimer
+Type: Package
+Title: Derive Primers for MiRNA Stemloop QPCR
+Version: 0.1.0
+Author: Chinedu A. Anene
+Maintainer: Chinedu A. Anene <caanenedr@outlook.com>
+Description: Provides a configurable interface for generating
+    specific primers for miRNA stem-loop quantitative reverse transcription PCR (RT-qPCR).
+    It follows both the design principles of PMID: 21732315 and the MIQE of qPCR doi: 10.1373/clinchem.2008.112797.
+    It can use any stemloop sequence, and you can modify the extension sequence for the 5' end of the forward primer.
+    Melting temperature is automatically calculated using the TmCalculator package. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depend: 
+    TmCalculator
